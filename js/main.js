@@ -1,7 +1,41 @@
-var d = new Date();
+function clique(){
+    document.getElementById("Agradecimento").innerHTML =  "<b> Obrigado por clicar! </b>";
+   //console.log(document.getElementById("Agradecimento"));
+    //alert("Obrigado por clicar");
+}
+
+function redirecionar(){
+    window.open("https://facebook.com/");
+}
+
+/*function soma(n1, n2){
+    return(n1 + n2)
+}
+//alert(soma(5, 10));*/
+
+/*function validaIdade(idade){
+    var validar = true;
+    if (idade >= 18){
+        validar = true;
+    } else {
+        validar = false;
+    }
+    return validar;
+}
+//var idade = prompt("Qual sua idade");
+console.log(validaIdade(idade));
+
+/*function setReplace(frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome)
+}
+alert(setReplace("Vai Japão", "Japão", "Brasil"));*/
+
+
+
+/*var d = new Date();
 //alert(d.getMonth()+1);
 //alert(d.getMinutes());
-alert(d.getDay());
+alert(d.getDay());*/
 
 /*var count;
 for(count=0; count <=5; count++){
@@ -35,6 +69,7 @@ console.log(lista[1]);
 console.log(lista[0]);
 lista.push("uva");
 //lista.pop();
+
 console.log(lista);
 console.log(lista.length);
 console.log(lista.reverse());
